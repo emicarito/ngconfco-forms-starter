@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { WorkshopRoutingModule } from './workshop-routing.module';
 import { WorkshopComponent } from './workshop.component';
@@ -12,7 +13,8 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     WorkshopRoutingModule,
-    SharedModule
+    SharedModule,
+    FormsModule
   ]
 })
 export class WorkshopModule { }
